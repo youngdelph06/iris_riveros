@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 # Charger le jeu de données Iris
-iris = sns.load_dataset("iri")
+iris = sns.load_dataset("iris")
 
 # Titre de l'application
 st.title("Analyse du jeu de données Iris")
